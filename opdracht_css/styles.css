@@ -1,0 +1,52 @@
+body {
+    color: rgb(44, 43, 43)
+}
+
+.border {
+    border: 5px solid rgb(75, 14, 243); background-color: rgb(160, 153, 252);
+}
+
+.border2 {
+    border: 1px solid rgb(243, 14, 174); background-color: rgb(160, 153, 252);
+}
+
+div{
+    width: 300px; 
+    height: auto; 
+    padding:50px; 
+    border: 5px solid rgb(75, 14, 243); 
+    border-radius: 15px;
+    margin: 20px auto;
+}
+    
+
+#gray-background {
+    background-color: rgb(202, 195, 195);
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10;font-weight: 200;line-height: 2em; text-align: center;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px; font-weight: lighter;
+    line-height: 20px;
+    background-color: #b78cf0;
+}  
+
+li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+}
+
+a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    font-style: oblique;
+}

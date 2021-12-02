@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<head>
+  <title>Inschrijfformulier </title>
+</head>
+
+<body>
+
+  <h2 class="border" id="form">
+    <form name="receptenformulier" method="POST" data-netlify="true">
+
+      <h1>Inschrijfformulier</h1>
+
+      <p>
+        <label>Naam: <input type="text" name="name" /></label>
+      </p>
+
+      <p>
+        <label>e-mailadres: <input type="email" name="email" /></label>
+      </p>
+
+      <p>
+        <label>telefoonnummer: <input type="tel" name="phonenumber" /></label>
+      </p>
+
+      <p>
+        <label>geboortedatum: <input type="date" id="birthday" name="birthday"></label>
+      </p>
+
+      <p>
+        genderidentiteit: <br>
+          <label> man <input type="radio" id="man" name="genderidentiteit" value="man"> </label><br>
+          <label> vrouw <input type="radio" id="vrouw" name="genderidentiteit" value="vrouw"> </label><br>
+          <label> nvt <input type="radio" id="nvt" name="genderidentiteit" value="nvt"> </label><br>
+      </p>
+
+      <p>
+        Geef hieronder aan wat uw favoriete keuken is <br>
+        <input type="checkbox" id="keuken1" name="keuken1" value="Franse keuken"> <label class="paragraph"> Franse
+          keuken </label><br>
+        <input type="checkbox" id="keuken2" name="keuken2" value="Italiaanse keuken"> <label class="paragraph">
+          Italiaanse keuken </label><br>
+        <input type="checkbox" id="keuken3" name="keuken3" value="Spaanse keuken"> <label class="paragraph"> Spaanse
+          keuken </label><br>
+        <input type="checkbox" id="keuken4" name="keuken4" value="Arabische keuken"> <label class="paragraph"> Arabische
+          keuken </label><br>
+      </p>
+
+      <p>
+        <label>Kies uw favoriete kleur keukenschort:</label>
+        <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br><br>
+      </p>
+
+      <p>
+        <label>Biografie/Curriculum Vitae <textarea name="message" rows="10" cols="60"></textarea></label>
+      </p>
+
+      <p>
+        <label> Klik op de "Bestand kiezen" button hieronder om uw favoriete recept te uploaden </label><br>
+        <input type="file" id="myFile" name="filename"><br>
+      </p>
+
+      <p>
+        <label for="receptenpagina">Voeg hierde link naar uw favoriete receptenpagina toe</label>
+        <input type="url" id="receptenpagina" name="receptenpagina"><br>
+      </p>
+
+      <p>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+      </p>
+
+    </form>
+  </h2>
+</body>
+
+<footer id="onderkant">
+  <nav>
+    <ul class="gray-background2">
+      <li><a href="index.html" target="blank">terug naar homepage</a></li>
+
+    </ul>
+  </nav>
+</footer>
+
+</html>

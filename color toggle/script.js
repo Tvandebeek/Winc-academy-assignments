@@ -38,7 +38,7 @@ menuItems.forEach(function(color){
 function changeBg(el, text) {
     body.style.background = el.dataset.color;
     menuBlock.classList.toggle('visible');
-    document.querySelector('h1').textContent = capitalize(text); /*deze heb ik al "hint" gekregen van m'n kennis, 
+    document.querySelector('h1').textContent = capitalize(text); /*deze (capitalize) heb ik al "hint" gekregen van m'n kennis, 
                                                                  snap het "capitalize" niet helemaal. De hoofdletters zijn
                                                                  al via "uppercase", dit zorgt juist voor het goede woord.*/ 
     toggleActive(el);
@@ -51,7 +51,7 @@ function changeBgLink(x, color) {
   menuContent = x.dataset.color;
 }
 
-// Functions om menu naam actief te krijgen in de tekst vd website
+// Functions om menu naam actief te krijgen als beschrijvende text op de website. 
 function toggleActive(item) {
 	var activeItem = document.querySelector('.active');
   if (activeItem) {
@@ -60,13 +60,12 @@ function toggleActive(item) {
   item.classList.add('active');
 }
 
-// Function om woord in tekst daadwerkelijk te veranderen in de "menu naam"
 function capitalize(word) {
   const lower = word.toLowerCase();
   return word.charAt(0).toUpperCase() + lower.slice(1);
 }
 
-//Functions voor sliding menu, dacht ik... maar dit werkt niet meer zoals 
+//Begin van Functions voor sliding menu, dacht ik... maar kan het vervolg niet goed bedenken. 
 function openMenu() {
   document.getElementById("menu-block").style.width = "250px";
 }
